@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <%= render 'flashes', locals: { alert: alert, notice: notice } %>
     <%= yield %>
   </body>
 </html>
